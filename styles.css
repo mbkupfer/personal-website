@@ -1,0 +1,55 @@
+/* ===============
+   Global
+   =============== */
+
+
+/* ===============
+   Sections
+   =============== */
+
+   .header {
+     border-bottom: 1px solid grey;
+     font-size: 2.4rem;
+     margin-top: 3rem;
+   }
+/* ===============
+   Resume
+   =============== */
+
+   .resume-company, .resume-position {
+      font-weight: bold;
+      color: rgb(70, 92, 121)
+
+   }
+
+   .resume-date_range {
+     font-style: italic;
+   }
+
+/* ===============
+   Education
+  =============== */
+
+  .school-name {
+    font-weight: bold;
+  }
+  .school-date_ranges {
+    font-style: italic;
+  }
+/* ===============
+   Column layout
+   =============== */
+
+   .row {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     width: 100%
+   }
+
+   .column {
+     display: flex;
+     flex-direction: column;
+     flex-basis: 100%;
+     flex: 1;
+   }
